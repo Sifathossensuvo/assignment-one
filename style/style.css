@@ -1,6 +1,9 @@
 /* my work is start */
+*{
+ margin: 0;
+ padding: 0;   
+}
 /* google font */
-
 
 .azeret-mono-font{
     font-family: "Azeret Mono", monospace;
@@ -30,17 +33,22 @@ opacity: 0.7;
   }
   /* navigation */
   nav{
-    padding: 45px;
-    
-  }
-  nav > ul li{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   margin: 0px 166px;
+}
+nav li {
     list-style: none;
-  }
-  nav li a{
+}
+nav > li a{
     text-decoration: none;
-  }
+    color: rgb(71, 71, 71);
+font-size: 20px;
+}
+
   nav ul button{
-    box-sizing: border-box;
+    
 border: 1px solid rgb(13, 19, 33);
 border-radius: 8px;
 opacity: 0.8;
@@ -49,10 +57,44 @@ background-color: white;
 color: rgb(13, 19, 33);
 font-size: 20px;
 font-weight: 600;
-line-height: 23px;
+margin-bottom: 35px;
+
   }
-  nav ul{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  /* banner section */
+  .banner{
+    background-image: url(../assets/Hero-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+   
+  }
+  .banner-btn{
+    border-radius: 8px;
+background: rgb(13, 19, 33);
+padding: 20px 24px 20px 24px;
+color: rgb(255, 255, 255);
+font-size: 20px;
+font-weight: 600;
+line-height: 23px;
+border: none;
+  }
+  .sub-banner{
+   padding: 40px 220px;
+   text-align: center;
+   display: flex;
+   justify-content: center;
+  }
+  .sub-banner h1, p, button{
+    margin-top: 40px;
+  }
+  .banner-head{
+    color: rgb(13, 19, 33);
+font-size: 48px;
+font-weight: 800;
+
+  }
+  .sub-banner a{
+    text-decoration: none;
+  }
+  .sub-banner li{
+    list-style: none;
   }
