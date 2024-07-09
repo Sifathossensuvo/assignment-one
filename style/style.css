@@ -47,7 +47,7 @@ nav > li a{
 font-size: 20px;
 }
 
-  nav ul button{
+nav ul button{
     
 border: 1px solid rgb(13, 19, 33);
 border-radius: 8px;
@@ -97,4 +97,60 @@ font-weight: 800;
   }
   .sub-banner li{
     list-style: none;
+  }
+  /* banner end */
+  /* Why Web Development section */
+  main{
+    margin: 80px 150px; /* main style */
+  }
+  .why-development{
+    background: rgba(13, 19, 33, 0.02);
+    margin-top: 80px;
+    padding: 80px 100px 80px 100px;
+    border-radius: 16px;
+  }
+  .card-heading{
+    color: rgba(13, 19, 33, 0.7);
+font-size: 24px;
+font-weight: 700;
+line-height: 36px;
+text-align: left;
+  }
+  .card{
+    border-radius: 16px;
+background: linear-gradient(90.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
+margin-top: 50px;
+padding: 50px 50px 50px 50px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+  }
+  #card-btn{
+    border: 1px solid rgb(13, 19, 33);
+opacity: 0.8;
+padding: 14px 24px 14px 24px;
+background-color: white;
+color: rgb(13, 19, 33);
+font-size: 20px;
+font-weight: 600;
+margin-bottom: 35px;
+  }
+  .card2{
+    border-radius: 16px;
+    border-radius: 16px;
+    background: linear-gradient(270.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
+margin-top: 50px;
+padding: 50px 50px 50px 50px;
+display: flex;
+gap: 130px;
+align-items: center;
+  }
+  .card{
+    border-radius: 16px;
+background: linear-gradient(90.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
+margin-top: 50px;
+padding: 50px 50px 50px 50px;
+display: flex;
+justify-content: space-between;
+align-items: center;
   }
