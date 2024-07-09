@@ -1,0 +1,58 @@
+/* my work is start */
+/* google font */
+
+
+.azeret-mono-font{
+    font-family: "Azeret Mono", monospace;
+    font-optical-sizing: auto;
+    
+    font-style: normal;
+  }
+  /* shared styles */
+  .text-center{
+    text-align: center;
+  }
+  .section-heading{
+    color: rgb(13, 19, 33);
+font-size: 32px;
+font-weight: 800;
+line-height: 37px;
+letter-spacing: 0%;
+
+  }
+  .section-description{
+    color: rgb(13, 19, 33);
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0%;
+opacity: 0.7;
+  }
+  /* navigation */
+  nav{
+    padding: 45px;
+    
+  }
+  nav > ul li{
+    list-style: none;
+  }
+  nav li a{
+    text-decoration: none;
+  }
+  nav ul button{
+    box-sizing: border-box;
+border: 1px solid rgb(13, 19, 33);
+border-radius: 8px;
+opacity: 0.8;
+padding: 17px 24px 17px 24px;
+background-color: white;
+color: rgb(13, 19, 33);
+font-size: 20px;
+font-weight: 600;
+line-height: 23px;
+  }
+  nav ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
