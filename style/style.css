@@ -187,17 +187,17 @@ align-items: center;
     padding: 40px 40px 40px 40px;
     background: rgba(255, 76, 30, 0.05);
     border-radius: 16px;
-    width: 380px;
+    
   }
   .current-target2{
     padding: 40px 40px 40px 40px;
-    width: 380px;
+    
     border-radius: 16px;
     background: rgba(0, 76, 232, 0.05);
   }
   .current-target3{
     padding: 40px 40px 40px 40px;
-    width: 380px;
+    
     border-radius: 16px;
     background: rgba(255, 223, 0, 0.05);
   }
@@ -228,8 +228,9 @@ align-items: center;
   }
   .my-target-card{
     margin-top: 50px;
-    display: flex;
-    justify-content: space-around;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
   }
 .learn-more{
   text-decoration: underline;
