@@ -71,6 +71,7 @@ margin-bottom: 35px;
     background-image: url(../assets/Hero-bg.png);
     background-size: cover;
     background-repeat: no-repeat;
+    
    
   }
   .banner-btn{
@@ -215,6 +216,15 @@ align-items: center;
   .current-target3 a{
     text-decoration: none;
     color: rgb(13, 19, 33);
+  }
+  .current-target h1{
+    margin-top: 27px;
+  }
+  .current-target2 h1{
+    margin-top: 27px;
+  }
+  .current-target3 h1{
+    margin-top: 27px;
   }
   .my-target-card{
     margin-top: 50px;
